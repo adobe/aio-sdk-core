@@ -21,6 +21,7 @@
     "@adobe/aio-lib-core-tvm": "^0.7.0"
   },
   "devDependencies": {
+    "codecov": "^3.6.1",
     "eslint": "^6.4.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-standard": "^14.1.0",
