@@ -17,7 +17,7 @@
   "dependencies": {
     "@adobe/aio-lib-core-config": "^1.0.15",
     "@adobe/aio-lib-core-errors": "^2.0.0",
-    "@adobe/aio-lib-core-logging": "0.0.2",
+    "@adobe/aio-lib-core-logging": "0.0.3",
     "@adobe/aio-lib-core-tvm": "^0.7.0"
   },
   "devDependencies": {
