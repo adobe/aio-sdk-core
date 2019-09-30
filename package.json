@@ -18,7 +18,7 @@
     "@adobe/aio-lib-core-config": "^1.0.15",
     "@adobe/aio-lib-core-errors": "^2.0.0",
     "@adobe/aio-lib-core-logging": "^0.0.3",
-    "@adobe/aio-lib-core-tvm": "^0.9.0"
+    "@adobe/aio-lib-core-tvm": "^0.10.0"
   },
   "devDependencies": {
     "codecov": "^3.6.1",
