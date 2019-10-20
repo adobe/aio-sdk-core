@@ -23,6 +23,8 @@ This is the Adobe I/O Core SDK. This contains:
 - [Core Logger Library](https://github.com/adobe/aio-lib-core-logging)
 - [Core TVM Library](https://github.com/adobe/aio-lib-core-tvm)
 
+[SDK Health](./health.md)
+
 The module can be added to your project with:
 
 ```javascript
