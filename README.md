@@ -28,7 +28,7 @@ This is the Adobe I/O Core SDK. This contains:
 The module can be added to your project with:
 
 ```javascript
-npm install @adobe/aio-core-sdk --save
+npm install @adobe/aio-sdk-core --save
 ```
 
 Here is a snippet:
