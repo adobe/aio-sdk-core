@@ -1,0 +1,10 @@
+[
+    "adobe/aio-sdk-core",
+    "adobe/aio-lib-core-config",
+    "adobe/aio-lib-core-logging",
+    "adobe/aio-lib-core-errors",
+    "adobe/aio-lib-core-tvm",
+    "adobe/aio-lib-core-ims",
+    "adobe/aio-lib-core-ims-jwt",
+    "adobe/aio-lib-core-ims-oauth"
+]
