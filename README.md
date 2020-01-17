@@ -48,7 +48,7 @@ CoreSdk.Config.get()
 const { AioCoreSDKError, AioCoreSDKErrorWrapper } = CoreSdk.Errors
 
 // init the TVM client for further use
-const tvm = await CoreSdk.TvmClient.init({ ow: { auth: '<myauth>', namespace: '<mynamespace>' } })
+const tvm = await CoreSdk.TVMClient.init({ ow: { auth: '<myauth>', namespace: '<mynamespace>' } })
 
 // create a Logger
 const myAppLogger = CoreSdk.Logger('MyApp')
