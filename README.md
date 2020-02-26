@@ -22,6 +22,7 @@ This is the Adobe I/O Core SDK. This contains:
 - [Core Errors Library](https://github.com/adobe/aio-lib-core-errors)
 - [Core Logger Library](https://github.com/adobe/aio-lib-core-logging)
 - [Core TVM Library](https://github.com/adobe/aio-lib-core-tvm)
+- [Core Networking Library](https://github.com/adobe/aio-lib-core-netwroking)
 
 [SDK Health](./health.md)
 
@@ -36,7 +37,7 @@ Here is a snippet:
 ```javascript
 const CoreSdk = require('@adobe/aio-sdk-core')
 // OR ...
-const { Config, Errors, TVMClient, Logger } = require('@adobe/aio-sdk-core')
+const { Config, Errors, TVMClient, Logger, HttpClient } = require('@adobe/aio-sdk-core')
 
 // set a Config key value
 CoreSdk.Config.set('my.token', 1234)
@@ -53,6 +54,10 @@ const tvm = await CoreSdk.TVMClient.init({ ow: { auth: '<myauth>', namespace: '<
 // create a Logger
 const myAppLogger = CoreSdk.Logger('MyApp')
 myAppLogger.info('Hello, Dave.')
+
+// create own reference variable to call HttpClient for exponential backoff
+const httpClient = CoreSdk.HttpClient
+const response = await httpClient.exponentialBackoff('url', {method: 'GET'})
 ```
 
 ## Explore
