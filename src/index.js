@@ -13,6 +13,7 @@ const Errors = require('@adobe/aio-lib-core-errors')
 const Config = require('@adobe/aio-lib-core-config')
 const TVMClient = require('@adobe/aio-lib-core-tvm')
 const Logger = require('@adobe/aio-lib-core-logging')
+const HttpClient = require('@adobe/aio-lib-core-networking')
 
 /** @module @adobe/aio-sdk-core */
 module.exports = {
@@ -39,5 +40,11 @@ module.exports = {
    *
    * @see {@link https://github.com/adobe/aio-lib-core-logging/blob/master/README.md|@adobe/aio-lib-core-logging}
    */
-  Logger
+  Logger,
+  /**
+   *  The Networking Module of the Adobe I/O Core SDK
+   *
+   * @see {@link https://github.com/adobe/aio-lib-core-networking/blob/master/README.md|@adobe/aio-lib-core-networking}
+   */
+  HttpClient
 }
