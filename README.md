@@ -22,7 +22,7 @@ This is the Adobe I/O Core SDK. This contains:
 - [Core Errors Library](https://github.com/adobe/aio-lib-core-errors)
 - [Core Logger Library](https://github.com/adobe/aio-lib-core-logging)
 - [Core TVM Library](https://github.com/adobe/aio-lib-core-tvm)
-- [Core Networking Library](https://github.com/adobe/aio-lib-core-netwroking)
+- [Core Networking Library](https://github.com/adobe/aio-lib-core-networking)
 
 [SDK Health](./health.md)
 
