@@ -14,16 +14,16 @@
     "url": "https://github.com/adobe/aio-sdk-core.git"
   },
   "engines": {
-    "node": "^14.18 || ^16.13 || >=18"
+    "node": "^14.16 || ^16.13 || >=18"
   },
   "author": "Adobe Inc.",
   "license": "Apache-2.0",
   "dependencies": {
-    "@adobe/aio-lib-core-config": "^2.0.0",
-    "@adobe/aio-lib-core-errors": "^3.0.1",
-    "@adobe/aio-lib-core-logging": "^1.1.2",
-    "@adobe/aio-lib-core-tvm": "^2.0.0",
-    "@adobe/aio-lib-core-networking": "^1.0.1"
+    "@adobe/aio-lib-core-config": "^3.0.0",
+    "@adobe/aio-lib-core-errors": "^3.1.0",
+    "@adobe/aio-lib-core-logging": "^2.0.0",
+    "@adobe/aio-lib-core-tvm": "^3.0.0",
+    "@adobe/aio-lib-core-networking": "^3.0.0"
   },
   "devDependencies": {
     "@adobe/gen-health-table": "^2.0.0",
