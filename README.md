@@ -37,7 +37,7 @@ Here is a snippet:
 ```javascript
 const CoreSdk = require('@adobe/aio-sdk-core')
 // OR ...
-const { Config, Errors, TVMClient, Logger, HttpClient } = require('@adobe/aio-sdk-core')
+const { Config, Errors, TVMClient, Logger, HttpClient, AuthClient } = require('@adobe/aio-sdk-core')
 
 // set a Config key value
 CoreSdk.Config.set('my.token', 1234)
@@ -58,6 +58,10 @@ myAppLogger.info('Hello, Dave.')
 // create own reference variable to call HttpClient for exponential backoff
 const httpClient = CoreSdk.HttpClient
 const response = await httpClient.exponentialBackoff('url', {method: 'GET'})
+
+// generate an IMS token using the AuthClient
+const authClient = CoreSdk.AuthClient
+const token = await const token = await generateAccessToken({ clientId, clientSecret, orgId, scopes })
 ```
 
 ## Explore
