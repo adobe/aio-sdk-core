@@ -48,7 +48,7 @@ module.exports = {
    * @see {@link https://github.com/adobe/aio-lib-core-networking/blob/master/README.md|@adobe/aio-lib-core-networking}
    */
   HttpClient,
-    /**
+  /**
    *  The Auth Module of the Adobe I/O Core SDK
    *
    * @see {@link https://github.com/adobe/aio-lib-core-auth/blob/master/README.md|@adobe/aio-lib-core-auth}
