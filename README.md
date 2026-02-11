@@ -57,11 +57,11 @@ myAppLogger.info('Hello, Dave.')
 
 // create own reference variable to call HttpClient for exponential backoff
 const httpClient = CoreSdk.HttpClient
-const response = await httpClient.exponentialBackoff('url', {method: 'GET'})
+const response = await httpClient.exponentialBackoff('url', { method: 'GET' })
 
 // generate an IMS token using the AuthClient
 const authClient = CoreSdk.AuthClient
-const token = await const token = await generateAccessToken({ clientId, clientSecret, orgId, scopes })
+const token = await generateAccessToken({ clientId, clientSecret, orgId, scopes }, imsEnv = 'prod')
 ```
 
 ## Explore
