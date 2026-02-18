@@ -17,4 +17,5 @@ test('module existence', () => {
   expect(core.TVMClient).toBeTruthy()
   expect(core.Logger).toBeTruthy()
   expect(core.HttpClient).toBeTruthy()
+  expect(core.AuthClient).toBeTruthy()
 })

@@ -14,6 +14,7 @@ const Config = require('@adobe/aio-lib-core-config')
 const TVMClient = require('@adobe/aio-lib-core-tvm')
 const Logger = require('@adobe/aio-lib-core-logging')
 const HttpClient = require('@adobe/aio-lib-core-networking')
+const AuthClient = require('@adobe/aio-lib-core-auth')
 
 /** @module @adobe/aio-sdk-core */
 module.exports = {
@@ -46,5 +47,11 @@ module.exports = {
    *
    * @see {@link https://github.com/adobe/aio-lib-core-networking/blob/master/README.md|@adobe/aio-lib-core-networking}
    */
-  HttpClient
+  HttpClient,
+  /**
+   *  The Auth Module of the Adobe I/O Core SDK
+   *
+   * @see {@link https://github.com/adobe/aio-lib-core-auth/blob/master/README.md|@adobe/aio-lib-core-auth}
+   */
+  AuthClient
 }
